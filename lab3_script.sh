@@ -11,7 +11,7 @@ read -r regex
 #Step-2 Run Regex on user input
 echo "-----------------------"
 echo "Output user regex($regex) in user file($fileName)"
-grep regex filename
+grep -E "regex" "filename"
 echo "-----------------------"
 
 
